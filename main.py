@@ -9,7 +9,7 @@ if(choice.lower()=="gcf"):
     if(num1%gc==0 and num2%gc==0 and num3%gc==0):
       break
     gc-=1
-  print(f"The GCF is: {gc}.");
+  print(f"The GCF is: {gc}.")
 elif(choice.lower()=="lcm"):
   mSum = num1*num2*num3
   lc = max(num1,max(num2,num3))
