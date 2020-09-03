@@ -19,4 +19,4 @@ while True:
       break
     else: FU = 42/0    
   except:
-    print("That's not a valid input, try again.")
+    print("That's not a valid input, try again. ;)")
